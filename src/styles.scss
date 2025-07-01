@@ -3,10 +3,10 @@
 /* Variables globales */
 :root {
   --color-primary: #000000;
-  --color-secondary: #D4AF37;
+  --color-secondary: #d4af37;
   --color-text: #ffffff;
   --color-background: #121212;
-  --color-card: #1E1E1E;
+  --color-card: #1e1e1e;
   --font-primary: 'Poppins', sans-serif;
 }
 
@@ -72,7 +72,7 @@ body {
   transition: all 0.3s ease;
 
   &:hover {
-    background-color: darken(#D4AF37, 10%);
+    background-color: #d4af37;
   }
 }
 

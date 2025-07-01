@@ -6,9 +6,9 @@ import { SkillsComponent } from '../skills/skills.component';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
+  standalone: true,
   imports: [CommonModule, ExperienceComponent, TechnologiesComponent, SkillsComponent],
 })
 export class HomeComponent {
