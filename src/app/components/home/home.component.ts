@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExperienceComponent } from '../experience/experience.component';
-import { ServicesComponent } from '../services/services.component';
+import { TechnologiesComponent } from '../technologies/technologies.component';
 import { SkillsComponent } from '../skills/skills.component';
 
 @Component({
@@ -9,7 +9,7 @@ import { SkillsComponent } from '../skills/skills.component';
   standalone: true,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  imports: [CommonModule, ExperienceComponent, ServicesComponent, SkillsComponent],
+  imports: [CommonModule, ExperienceComponent, TechnologiesComponent, SkillsComponent],
 })
 export class HomeComponent {
   name = 'Enrique Diez';

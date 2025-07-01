@@ -1,0 +1,16 @@
+<section id="services" class="services-section">
+  <div class="container">
+    <h2 class="section-title">Tecnologias</h2>
+    <div class="services-grid">
+      @for (technology of technologies; track technology) {
+        <div class="service-card card">
+          <div class="service-icon">
+            <i [class]="technology.icon"></i>
+          </div>
+          <h3 class="service-title">{{ technology.title }}</h3>
+          <p class="service-description">{{ technology.description }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
